@@ -1,2 +1,2 @@
 # wedding
-Sam and Matt's Wedding Website
+Diana and David's Wedding Website
