@@ -18,13 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Samantha Klonaris & Matt Kaplun's Wedding Website
+title: Diana Klonaris & David Sutherland's Wedding Website
 email: srklonaris@gmail.com
-description: "Welcome to Samantha Klonaris and Matt Kaplun's Wedding Website! View a schedule of events, accommodations, directions, registry details and more."
-domain: "samandmatt.love"
+description: "Welcome to Diana Klonaris and David Sutherland's Wedding Website! View a schedule of events, accommodations, directions, registry details and more."
+domain: "dianaanddavid.com"
 baseurl: ""
-url: "https://www.samandmatt.love"
-twitter_username: 0hSamIAm
+url: "https://www.dianaanddavid.com"
 github_username: samklonaris
 
 # Build settings
