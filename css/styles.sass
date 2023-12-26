@@ -2,7 +2,8 @@
 ---
 
 $background-color: #BCB1A4
-$primary-color: #ffffff
+$primary-color: #000000
+$white-color: #ffffff
 
 $font-1: 37px
 $font-1-mobile: 30px
@@ -106,15 +107,16 @@ button.navbar-toggler
 	background-size: 100%
 	background-repeat: no-repeat
 	height: 800px
+	color: $white-color
 	.text-wrapper
+		top: 20%
+		left: 15%
 		position: absolute
-
-.more-images
-	padding: 45px
-	.photo-grid
-		display: inline-block
-		width: calc(98% / 4)
-		padding-right: 15px
+		.title
+			font-size: 72px
+			line-height: 92px
+		.subtitle
+			font-size: $font-2
 
 .home-name
 	font-size: 88px
@@ -219,6 +221,9 @@ a.button
 			margin: 0 auto
 			max-width: 750px
 			margin-bottom: 50px
+	.img-col
+		@media (max-width: 991px)
+			margin-bottom: 30px
 
 .activity-wrapper
 	text-align: center

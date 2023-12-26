@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: #BCB1A4;
-  color: #ffffff;
+  color: #000000;
   font-family: "WorkSans-Regular", sans-serif;
   font-size: 16px;
 }
@@ -25,18 +25,18 @@ body div {
   line-height: 160%;
 }
 body a {
-  color: #ffffff;
+  color: #000000;
   padding-bottom: 1px;
   border-bottom: 1px solid transparent;
 }
 body a:hover {
-  color: #ffffff;
-  border-bottom: 1px solid #ffffff;
+  color: #000000;
+  border-bottom: 1px solid #000000;
   text-decoration: none;
 }
 
 .head-banner {
-  color: #ffffff;
+  color: #000000;
   font-size: 50px;
   text-align: center;
   padding-top: 10px;
@@ -49,7 +49,7 @@ body a:hover {
 }
 
 .head-monogram {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-size: 24px;
   padding-top: 27px;
@@ -112,18 +112,19 @@ button.navbar-toggler {
   background-size: 100%;
   background-repeat: no-repeat;
   height: 800px;
+  color: #ffffff;
 }
 .hero-wrapper .text-wrapper {
+  top: 20%;
+  left: 15%;
   position: absolute;
 }
-
-.more-images {
-  padding: 45px;
+.hero-wrapper .text-wrapper .title {
+  font-size: 72px;
+  line-height: 92px;
 }
-.more-images .photo-grid {
-  display: inline-block;
-  width: 24.5%;
-  padding-right: 15px;
+.hero-wrapper .text-wrapper .subtitle {
+  font-size: 16px;
 }
 
 .home-name {
@@ -160,7 +161,7 @@ button.navbar-toggler {
 
 .home-and {
   font-family: "PinyonScript-Regular", sans-serif;
-  color: #ffffff;
+  color: #000000;
   font-size: 88px;
   position: relative;
   top: 12px;
@@ -232,15 +233,15 @@ button.navbar-toggler {
 a.button, button.btn.btn-primary {
   padding: 11px 32px 10px;
   background-color: none;
-  color: #ffffff;
+  color: #000000;
   border-radius: 25px;
-  border: 2px solid #ffffff;
+  border: 2px solid #000000;
 }
 
 a.button:hover, a.button:focus {
   color: #ffffff;
-  background-color: #ffffff;
-  border: 2px solid #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
   text-decoration: none;
 }
 
@@ -264,6 +265,11 @@ a.button:hover, a.button:focus {
   margin: 0 auto;
   max-width: 750px;
   margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+  .pane .img-col {
+    margin-bottom: 30px;
+  }
 }
 
 .activity-wrapper {
@@ -330,7 +336,7 @@ footer {
   margin-bottom: 50px;
 }
 .faq-wrapper a {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #000000;
 }
 .faq-wrapper .q {
   font-size: 24px;
@@ -356,7 +362,7 @@ footer {
 }
 .event-wrapper .event-section-wrapper {
   display: flex;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #000000;
   padding-top: 24px;
 }
 .event-wrapper .event-section-wrapper:not(:last-child) {
