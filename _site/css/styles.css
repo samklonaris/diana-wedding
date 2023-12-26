@@ -178,6 +178,10 @@ button.navbar-toggler {
   width: calc(100vw + 60px);
 }
 
+header {
+  border-bottom: 1px solid #000000;
+}
+
 .header-heart {
   position: relative;
   top: -2px;
@@ -198,17 +202,6 @@ button.navbar-toggler {
   text-align: center;
   font-size: 37px;
   margin-top: 45px;
-}
-
-.hotel-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-gap: 10px;
-}
-@media (max-width: 1000px) {
-  .hotel-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .hotel-block {
@@ -244,7 +237,7 @@ a.button:hover, a.button:focus {
 }
 
 .pane {
-  margin-top: 50px;
+  margin-top: 25px;
   padding-bottom: 50px;
 }
 .pane h1 {
@@ -290,6 +283,7 @@ a.button:hover, a.button:focus {
 }
 
 footer {
+  font-family: "Autography", sans-serif;
   height: 150px;
 }
 
@@ -309,6 +303,7 @@ footer {
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
   padding: 30px;
   border-radius: 4px;
+  background-color: #ffffff;
 }
 .registry-wrapper .provider:not(last) {
   margin-right: 30px;
