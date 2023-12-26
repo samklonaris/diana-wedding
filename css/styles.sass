@@ -11,21 +11,16 @@ $font-2: 16px
 $font-3: 24px
 
 @font-face
-	font-family: "WorkSans-Regular"
-	src: url('{{ site.baseurl }}/fonts/WorkSans-Regular.woff')
+	font-family: "Autography"
+	src: url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.eot")
+	src: url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.eot?#iefix")format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.woff2")format("woff2"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.woff")format("woff"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.ttf")format("truetype"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.svg#Autography")format("svg")
 
 @font-face
-	font-family: "WorkSans-Thin"
-	src: url('{{ site.baseurl }}/fonts/WorkSans-Thin.woff')
+	font-family: "NotoSerifDisplay"
+	src: url("/fonts/NotoSerifDisplay-Regular.ttf")
 
-@font-face
-	font-family: "PinyonScript-Regular"
-	src: url('{{ site.baseurl }}/fonts/PinyonScript-Regular.woff')
-
-$default-font-family: "WorkSans-Regular", sans-serif
-$default-font-family-thin: "WorkSans-Thin", sans-serif
-
-$fancy-font-family: "PinyonScript-Regular", sans-serif
+$default-font-family: "NotoSerifDisplay", sans-serif
+$fancy-font-family: "Autography", sans-serif
 
 html, body
 	position: relative
@@ -52,6 +47,8 @@ body
 	font-size: 50px
 	text-align: center
 	padding-top: 10px
+	&:not(nav)
+	font-family: $fancy-font-family
 	@media (max-width: 768px)
 		padding-top: 20px
 		font-size: 21px
@@ -120,7 +117,7 @@ button.navbar-toggler
 
 .home-name
 	font-size: 88px
-	font-family: $default-font-family-thin
+	font-family: $default-font-family
 	letter-spacing: 10px
 	@media (max-width: 690px)
 		font-size: 44px

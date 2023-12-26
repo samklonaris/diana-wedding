@@ -1,14 +1,11 @@
 @font-face {
-  font-family: "WorkSans-Regular";
-  src: url("/fonts/WorkSans-Regular.woff");
+  font-family: "Autography";
+  src: url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.eot");
+  src: url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.woff") format("woff"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/315a69a04f15dd467d257e3db2f2916f.svg#Autography") format("svg");
 }
 @font-face {
-  font-family: "WorkSans-Thin";
-  src: url("/fonts/WorkSans-Thin.woff");
-}
-@font-face {
-  font-family: "PinyonScript-Regular";
-  src: url("/fonts/PinyonScript-Regular.woff");
+  font-family: "NotoSerifDisplay";
+  src: url("/fonts/NotoSerifDisplay-Regular.ttf");
 }
 html, body {
   position: relative;
@@ -18,7 +15,7 @@ html, body {
 body {
   background-color: #BCB1A4;
   color: #000000;
-  font-family: "WorkSans-Regular", sans-serif;
+  font-family: "NotoSerifDisplay", sans-serif;
   font-size: 16px;
 }
 body div {
@@ -40,6 +37,7 @@ body a:hover {
   font-size: 50px;
   text-align: center;
   padding-top: 10px;
+  font-family: "Autography", sans-serif;
 }
 @media (max-width: 768px) {
   .head-banner {
@@ -129,13 +127,13 @@ button.navbar-toggler {
 
 .home-name {
   font-size: 88px;
-  font-family: "WorkSans-Thin", sans-serif;
+  font-family: "NotoSerifDisplay", sans-serif;
   letter-spacing: 10px;
 }
 @media (max-width: 690px) {
   .home-name {
     font-size: 44px;
-    font-family: "WorkSans-Regular", sans-serif;
+    font-family: "NotoSerifDisplay", sans-serif;
   }
 }
 .home-name.sam {
@@ -160,7 +158,7 @@ button.navbar-toggler {
 }
 
 .home-and {
-  font-family: "PinyonScript-Regular", sans-serif;
+  font-family: "Autography", sans-serif;
   color: #000000;
   font-size: 88px;
   position: relative;
