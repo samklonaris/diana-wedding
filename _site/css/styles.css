@@ -124,6 +124,29 @@ button.navbar-toggler {
 .hero-wrapper .text-wrapper .subtitle {
   font-size: 16px;
 }
+@media (max-width: 1070px) {
+  .hero-wrapper {
+    min-height: 400px;
+    height: 100%;
+  }
+  .hero-wrapper .text-wrapper {
+    top: 20px;
+  }
+}
+@media (max-width: 690px) {
+  .hero-wrapper .text-wrapper {
+    width: 100%;
+    left: 0px;
+  }
+  .hero-wrapper .text-wrapper .title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .hero-wrapper .text-wrapper .subtitle {
+    text-align: center;
+  }
+}
 
 .home-name {
   font-size: 88px;
