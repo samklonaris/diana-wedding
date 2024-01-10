@@ -260,6 +260,11 @@ header {
   margin-top: 22px;
 }
 
+.hotel-name {
+  font-size: 24px;
+  text-align: center;
+}
+
 a.button, button.btn.btn-primary {
   padding: 11px 32px 10px;
   background-color: none;
@@ -300,6 +305,9 @@ a.button:hover, a.button:focus {
   .pane .img-col {
     margin-bottom: 30px;
   }
+}
+.pane.hotels h1.no-margin {
+  margin-bottom: 5px;
 }
 
 .activity-wrapper {
