@@ -1,8 +1,8 @@
 ---
 ---
 
-$background-color: #EEE7E3
-$primary-color: #2f2d2d
+$background-color: #BCB1A4
+$primary-color: #000000
 $white-color: #ffffff
 
 $font-1: 37px
@@ -19,12 +19,7 @@ $font-3: 24px
 	font-family: "NotoSerifDisplay"
 	src: url("/fonts/NotoSerifDisplay-Regular.ttf")
 
-@font-face
-	font-family: "NotoSansDisplay"
-	src: url("/fonts/NotoSansDisplay-Variable.ttf")
-
-$default-font-family-serif: "NotoSerifDisplay", sans-serif
-$default-font-family: "NotoSansDisplay", sans-serif
+$default-font-family: "NotoSerifDisplay", sans-serif
 $fancy-font-family: "Autography", sans-serif
 
 html, body
@@ -74,7 +69,7 @@ button.navbar-toggler
 	background-color: $background-color
 	background-repeat: no-repeat
 	right: 30px
-	top: -41px
+	top: -33px
 	@media (min-width: 768px)
 		display: none
 
@@ -110,8 +105,6 @@ button.navbar-toggler
 	background-repeat: no-repeat
 	height: 800px
 	color: $white-color
-	top: -1px
-	font-family: $default-font-family-serif
 	.text-wrapper
 		top: 20%
 		left: 15%
@@ -121,21 +114,6 @@ button.navbar-toggler
 			line-height: 92px
 		.subtitle
 			font-size: $font-2
-	@media (max-width: 1070px)
-		min-height: 400px
-		height: 100%
-		.text-wrapper
-			top: 20px
-	@media (max-width: 690px)
-		.text-wrapper
-			width: 100%
-			left: 0px
-			.title
-				font-size: 24px
-				line-height: 32px
-				text-align: center
-			.subtitle
-				text-align: center
 
 .home-name
 	font-size: 88px
@@ -295,32 +273,56 @@ footer
 
 .event-wrapper
 	max-width: 700px
+	text-align: center
 	margin: 0 auto
-	display: flex
-	align-items: center
-	margin-bottom: 50px
-	width: 450px
-	@media (max-width: 690px)
-		width: 100%
-		display: block
-		text-align: center
-	.icon
-		width: 50px
-		height: 50px
-		display: inline-block
-		@media (max-width: 690px)
-			display: block
-			margin: 0 auto
-			margin-bottom: 10px
+	margin-top: 24px
+	&:not(:last-child)
+		margin-bottom: 50px
+	.day
+		font-size: $font-3
+		text-transform: uppercase
+	.date
+		font-size: $font-3
+		margin-bottom: 24px
 	.event-section-wrapper
-		margin-left: 30px
-		display: inline-block
-		.event-name
-			font-size: $font-3
-		.event-detail
-			&.break
-				margin-top: 7px
-		@media (max-width: 690px)
-			display: block
-			margin-left: 0px
+		display: flex
+		border-top: 1px solid $primary-color
+		padding-top: 24px
+		&:not(:last-child)
+			margin-bottom: 35px
+		@media (max-width: 768px)
+			flex-direction: column
+
+		.event-section
+			&.right
+				text-align: right
+				padding-right: 35px
+				width: 40%
+				@media (max-width: 768px)
+					padding: 0px
+					width: 100%
+					text-align: left
+			&.left
+				text-align: left
+				padding-left: 35px
+				width: 60%
+				@media (max-width: 768px)
+					padding: 0px
+					width: 100%
+			&.time
+				font-size: $font-3
+				@media (max-width: 768px)
+					font-size: $font-2
+			.what
+				font-size: $font-3
+				margin-bottom: 12px
+				text-transform: uppercase
+				@media (max-width: 768px)
+					font-size: $font-2
+			.where
+				@media (max-width: 768px)
+					margin-bottom: 6px
+			.address
+				@media (max-width: 768px)
+					font-size: 14px
 
