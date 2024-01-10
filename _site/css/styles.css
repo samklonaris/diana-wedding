@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: "NotoSansDisplay";
-  src: url("/fonts/NotoSansDisplay-Variable.ttf");
+  src: url("/fonts/NotoSansDisplay-VariableFont.ttf");
 }
 html, body {
   position: relative;
@@ -152,6 +152,16 @@ button.navbar-toggler {
   .hero-wrapper .text-wrapper .subtitle {
     text-align: center;
   }
+}
+
+.mobile-hero {
+  text-align: center;
+  margin-top: 25px;
+  font-family: "NotoSerifDisplay", sans-serif;
+  font-size: 37px;
+}
+.mobile-hero .text-wrapper {
+  margin-bottom: 25px;
 }
 
 .home-name {
@@ -408,5 +418,3 @@ footer {
     margin-left: 0px;
   }
 }
-
-/*# sourceMappingURL=styles.css.map */
