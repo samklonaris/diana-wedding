@@ -325,8 +325,10 @@ a.button:hover, a.button:focus {
   margin-bottom: 5px;
   font-size: 24px;
 }
-.activity .address {
-  margin-bottom: 20px;
+.activity .description {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 footer {
