@@ -318,6 +318,7 @@ a.button:hover, a.button:focus {
   padding-bottom: 75px;
 }
 .activity img {
+  border-radius: 2px;
   margin-bottom: 20px;
 }
 .activity .name {
