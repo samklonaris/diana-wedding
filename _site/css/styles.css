@@ -357,7 +357,7 @@ footer {
 .registry-wrapper .provider:not(last) {
   margin-right: 30px;
 }
-@media (max-width: 690px) {
+@media (max-width: 991px) {
   .registry-wrapper .provider {
     margin-bottom: 30px;
   }
